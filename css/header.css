@@ -1,5 +1,5 @@
 .navbar-inverse .navbar-form{
-   margin-right: 30px;
+    margin-right: 30px;
     position: relative;
 }
 
@@ -21,6 +21,28 @@
     margin-top: 10px;
 }
 
-.float-right{
-    float:right;
+.ft-size{
+    font-size: 12px;
+}
+
+.ft-color{
+    color: #666;
+}
+
+.diggit{
+    background: rgba(0, 0, 0, 0) url("../images/upup.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 52px;
+    margin-top: 2px;
+    text-align: center;
+    text-indent: 0;
+    width: 46px;
+}
+
+.diggnum{
+    color: #075db3;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 2.2em;
 }

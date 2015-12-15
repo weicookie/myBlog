@@ -1,3 +1,51 @@
 body{
     padding: 70px;
 }
+.content-right{
+    margin-left: 20px;
+}
+
+.video-intro{
+    color: #333;
+    display: block;
+    height: 72px;
+    line-height: 16px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    width: 400px;
+    font-size: 12px;
+}
+.article-intro{
+    color: #333;
+    display: block;
+    height: 30px;
+    line-height: 16px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    width: 630px;
+    font-size: 12px;
+}
+
+.panel-rct li a{
+    padding: 3px 15px;
+}
+
+#article .panel-body .author{
+    color:#269abc;
+}
+
+#article .panel-body .article_comment{
+    background: transparent url("../images/icon_comment.gif") no-repeat scroll 0 0;
+    margin-left: 1px;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+#article .panel-body .article_view{
+    background: transparent url("../images/icon_comment.gif") no-repeat scroll 0 0;
+    margin-left: 2px;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+
