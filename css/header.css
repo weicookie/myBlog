@@ -1,0 +1,26 @@
+.navbar-inverse .navbar-form{
+   margin-right: 30px;
+    position: relative;
+}
+
+.navbar-form input[type="text"]{
+    border: none;
+    color: #999;
+}
+
+.navbar-form button[type="submit"]{
+    background: none;
+    border: none;
+    position: absolute;
+    color: #313131;
+    right: 16px;
+    top: 8px;
+}
+
+.profile{
+    margin-top: 10px;
+}
+
+.float-right{
+    float:right;
+}
