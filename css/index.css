@@ -124,5 +124,22 @@ body{
 .panel-rct li a{
     padding: 3px 15px;
 }
+.tab_list{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tab_list li{
+    height: 26px;
+    line-height: 24px;
 
+}
+.panel_list{
+    margin-left:10px;
+}
+.panel_list li{
+    height: 26px;
+    line-height: 24px;
+
+}
 
