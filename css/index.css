@@ -26,10 +26,6 @@ body{
     font-size: 12px;
 }
 
-.panel-rct li a{
-    padding: 3px 15px;
-}
-
 #article .panel-body .author{
     color:#269abc;
 }
@@ -46,6 +42,87 @@ body{
     margin-left: 2px;
     padding-left: 18px;
     padding-right: 5px;
+}
+
+
+.problem-intro{
+    color: #333;
+    display: block;
+    height: 20px;
+    line-height: 14px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    font-size: 12px;
+    width: 630px;
+}
+
+
+.pro_author{
+    color: #28a4c9;
+    font-weight: bold;
+}
+
+.browser_num{
+    font-size: 12px;
+    color: #666666;
+}
+
+.list-item{
+     border-bottom: 1px dotted #ccc;
+     padding-top:15px;
+     padding-bottom:15px;
+ }
+
+.dl-item{
+    border-bottom: 1px dotted #ccc;
+    padding-bottom:15px;
+}
+
+.answercount{
+    width:50px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float: left;
+    height: 52px;
+    margin-top: 2px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.answercount .diggitnum{
+    background-color: #eee;
+    color: #999;
+    border-radius: 2px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 2.2em;
+    width: 48px;
+}
+
+.answercount .diggitword{
+    background-color: #fff;
+    color: #888;
+    height: 18px;
+    padding-top: 3px;
+    width: 46px;
+    font-size: 12px;
+}
+
+.gold{
+    color: #f47a20;
+    padding: 2px;
+    font-size:14px;
+}
+
+#news .panel-body dl dd{
+    max-height: 62px;
+    overflow: hidden;
+}
+
+.panel-rct li a{
+    padding: 3px 15px;
 }
 
 
