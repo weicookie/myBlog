@@ -1,0 +1,38 @@
+/*ÊµÏÖÔ²½Ç*/
+.radius{
+    border-radius: 4px;
+}
+
+/*È¥³ıÔ²½Ç*/
+.unradius{
+    border-radius: 0px;
+}
+
+.row-top{
+    margin-top: 15px;
+}
+
+/*Ò³ÂëÊäÈë¿ò*/
+.pageNumInput{
+    width: 28px;
+    text-align: center;
+    background: none;
+    text-indent: 0;
+    border: 1px solid #ddd;
+}
+
+.span_right{
+    margin-right: 10px;
+}
+
+.spam_left{
+    margin-left: 10px;
+}
+
+.button_left{
+    margin-left: 10px;
+}
+
+.button_right{
+    margin-right: 10px;
+}

@@ -40,12 +40,13 @@
 .diggit{
     background: rgba(0, 0, 0, 0) url("../images/upup.gif") no-repeat scroll 0 0;
     cursor: pointer;
-    float: left;
     height: 52px;
     margin-top: 2px;
-    text-align: center;
+    padding-left: 19px;
     text-indent: 0;
     width: 46px;
+    display: block;
+    margin-right: 20px;
 }
 
 .diggnum{

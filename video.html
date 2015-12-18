@@ -1,0 +1,239 @@
+<!--
+    视频专区首页 2015-12-18 17:50:01
+    -->
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>首页</title>
+    <link href="frameworks/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/video.css" rel="stylesheet">
+    <script type="text/javascript" src="frameworks/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="frameworks/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--头部start-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand"><strong>harvey.com</strong></a>
+        <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="">首页</a></li>
+            <li><a href="">视频专区</a></li>
+            <li><a href="">文章园</a></li>
+            <li><a href="">新闻视角</a></li>
+            <li><a href="">博学多问</a></li>
+            <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                    更多 <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="">音乐空间</a></li>
+                    <li><a href="">我的博客</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-sm navbar-btn navbar-right hidden-xs">RSS订阅</a>
+        <div class="navbar-right" style="margin-right: 30px">
+            <ul class="nav navbar-nav">
+                <li><a href="">登录</a></li>
+                <li><a href="">注册</a></li>
+            </ul>
+        </div>
+        <form class="navbar-form navbar-right">
+            <input type="text" placeholder="搜索" class="form-control">
+            <button type="submit">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+    <!--面包屑导航-->
+    <ol class="breadcrumb">
+        <li><a href="#">首页</a></li>
+        <li class="active">视频专区</li>
+    </ol>
+</div>
+
+<div class="container">
+    <!--左边视频分类导航-->
+    <div class="row">
+       <div class="col-md-3" id="left_menu">
+           <div class="panel panel-default">
+               <div class="panel-heading">
+                   <strong>全部分类</strong>
+               </div>
+               <ul class="nav nav-pills nav-stacked">
+                   <li><a href="#">移动开发&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">前端开发&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">后端开发&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">基础知识&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">操作系统&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">云计算&大数据&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">智能硬件&互联网&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">数据库&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">认证开始&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">企业IT&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                   <li><a href="#">设计&产品&测试&nbsp;<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+               </ul>
+           </div>
+       </div>
+        <div class="col-md-9">
+            <div class="row">
+               <div class="col-md-12 bg-info unradius">
+                   <ul class="nav navbar-nav navbar-left">
+                       <li><a href="#">全部课程</a></li>
+                       <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">最新&nbsp;<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                               <li><a href="#">最新</a></li>
+                               <li><a href="#">最热</a></li>
+                           </ul>
+                       </li>
+                       <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">课程类型<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                               <li><a href="#">全部</a></li>
+                               <li><a href="#">知识精讲</a></li>
+                               <li><a href="#">项目实战</a></li>
+                           </ul>
+                       </li>
+                       <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">难度等级<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                               <li><a href="#">全部</a></li>
+                               <li><a href="#">初级</a></li>
+                               <li><a href="#">中级</a></li>
+                               <li><a href="#">高级</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </div>
+            </div>
+            <div class="row row-top">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/video.png" alt="Drawable 动画详解">
+                        <div class="caption">
+                            <h3>Drawable 动画详解</h3>
+                            <p>本课程先讲述 Drawable 动画的详细使用，然后讲解 Interpolator 的体系结构、原理和定制方法。最后将上一课的 </p>
+                            <p><a href="#" class="btn btn-primary" role="button">点击观看</a> <a href="#" class="btn btn-default" role="button">下载</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--分页-->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <nav>
+                        <ul class="pagination">
+                            <li><a href="#">首页</a></li>
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">上一页</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">下一页</span>
+                                </a>
+                            </li>
+                            <li><a href="#">末页</a></li>
+                        </ul>
+                    </nav>
+                    <div class="text-center">
+                        <span class="span_right">共 <strong>10</strong> 页</span>
+                        <input type="text" class="pageNumInput radius" placeholder="1">
+                        <button class="btn btn-default btn-xs button_left" type="button">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+
+</div>
+</body>
+</html>
