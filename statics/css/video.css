@@ -1,0 +1,33 @@
+.fenlei{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.fenlei ul{
+    overflow: hidden;
+}
+.fenlei ul li{
+    overflow: hidden;
+    height: 36px;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+.fenleiLeft {
+    overflow: hidden;
+}
+.fenleiLeft dt{
+    width: 100%;
+    height: 24px;
+    float: left;
+    padding: 8px 0 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fenleiLeft dd{
+    float: left;
+    width: 220px;
+    overflow: hidden;
+}
+.fenleiLeft dd a{
+    margin: 15px 0 0 12px;
+    float: left;
+}

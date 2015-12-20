@@ -1,0 +1,19 @@
+.headlines li{
+    margin-bottom: 30px;
+}
+
+.headlines li .a_title{
+    height: 20px;
+    width: 60%;
+    overflow: hidden;
+}
+
+.headlines li .p_cont{
+    height: 20px;
+    width: 98%;
+    overflow: hidden;
+}
+
+.carousel_top{
+    margin-top: 70px;
+}

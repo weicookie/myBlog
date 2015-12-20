@@ -1,0 +1,45 @@
+body{
+    padding: 50px;
+    background: rgba(239,239,239,0.5);
+}
+
+.blog_top_background{
+    background: rgba(154, 52, 2, 1);
+    height: 150px;
+}
+
+/*让ul居中*/
+.ul_center{
+    width: 79%;
+    margin: 0px 11%;
+}
+
+.ul_center ul li .user{
+    width: 62px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+/*设置高度让*/
+.multi_overflow{
+    height: 50px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+/*单行，超过单行则隐藏*/
+.single_overflow{
+    width:60%;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.ele_margin_left{
+    margin-left: 20px;
+}
+
+.ele_margin_right{
+    margin-right: 20px;
+}

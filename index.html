@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>首页</title>
     <link href="frameworks/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="statics/css/header.css" rel="stylesheet">
+    <link href="statics/css/index.css" rel="stylesheet">
     <script type="text/javascript" src="frameworks/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="frameworks/bootstrap/js/bootstrap.min.js"></script>
 </head>
@@ -15,10 +15,10 @@
         <div class="container">
             <a href="#" class="navbar-brand"><strong>harvey.com</strong></a>
             <ul class="nav navbar-nav navbar-left">
-               <li class="active"><a href="">首页</a></li>
-                <li><a href="">视频专区</a></li>
-                <li><a href="">文章园</a></li>
-                <li><a href="">新闻视角</a></li>
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="video.html">视频专区</a></li>
+                <li><a href="article.html">文章园</a></li>
+                <li><a href="news.html">新闻视角</a></li>
                 <li><a href="">博学多问</a></li>
                 <li role="presentation" class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
@@ -63,19 +63,19 @@
                     <!--轮播项目（图片）-->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="images/a1.jpg" alt="first image">
+                            <img src="statics/images/a1.jpg" alt="first image">
                             <div class="carousel-caption">title 1</div>
                         </div>
                         <div class="item">
-                            <img src="images/a2.jpg" alt="second image">
+                            <img src="statics/images/a2.jpg" alt="second image">
                             <div class="carousel-caption">title 2</div>
                         </div>
                         <div class="item">
-                            <img src="images/a3.jpg" alt="third image">
+                            <img src="statics/images/a3.jpg" alt="third image">
                             <div class="carousel-caption">title 3</div>
                         </div>
                         <div class="item">
-                            <img src="images/a4.jpg" alt="four image">
+                            <img src="statics/images/a4.jpg" alt="four image">
                             <div class="carousel-caption">title 4</div>
                         </div>
                     </div>
@@ -107,7 +107,21 @@
                        <ul class="media-list">
                            <li class="media">
                                <a class="pull-left" href="#">
-                                   <img src="images/video-1.png" alt="HTML5" class="img-thumbnail img-responsive">
+                                   <img src="statics/images/video-1.png" alt="HTML5" class="img-thumbnail img-responsive">
+                               </a>
+                               <div class="media-body">
+                                   <h4 class="media-heading"><a href="">HTML5 微场景实战</a></h4>
+                                   <p class="text-justify">HTML5 是当前最火的 Web 前端技术，可以说，没有掌握 HTML5 技术的前端是不合格的前端，本课从一个 PPT 的设计开始，到 Web 页面的构建，带你体验 CSS3 的快感，从此打开天窗做动画，告别沉重的 JavaScript 特效。</p>
+                                   <ul class="list-inline">
+                                       <li class="small ft-color">难度：*****</li>
+                                       <li class="small ft-color">课时：5小时19分</li>
+                                       <li class="small ft-color">累计下载次数：10000次</li>
+                                   </ul>
+                               </div>
+                           </li>
+                           <li class="media">
+                               <a class="pull-left" href="#">
+                                   <img src="statics/images/video-2.png" alt="HTML5" class="img-thumbnail img-responsive">
                                </a>
                                <div class="media-body">
                                    <h4 class="media-heading"><a href="">HTML5 微场景实战</a></h4>
@@ -121,21 +135,7 @@
                            </li>
                            <li class="media">
                                <a class="pull-left" href="#">
-                                   <img src="images/video-2.png" alt="HTML5" class="img-thumbnail img-responsive">
-                               </a>
-                               <div class="media-body">
-                                   <h4 class="media-heading"><a href="">HTML5 微场景实战</a></h4>
-                                   <p class="text-justify">HTML5 是当前最火的 Web 前端技术，可以说，没有掌握 HTML5 技术的前端是不合格的前端，本课从一个 PPT 的设计开始，到 Web 页面的构建，带你体验 CSS3 的快感，从此打开天窗做动画，告别沉重的 JavaScript 特效。</p>
-                                   <ul class="list-inline">
-                                       <li><small class="ft-color">难度：*****</small></li>
-                                       <li><small class="ft-color">课时：5小时19分</small></li>
-                                       <li><small class="ft-color">累计下载次数：10000次</small></li>
-                                   </ul>
-                               </div>
-                           </li>
-                           <li class="media">
-                               <a class="pull-left" href="#">
-                                   <img src="images/video-1.png" alt="HTML5" class="img-thumbnail img-responsive">
+                                   <img src="statics/images/video-1.png" alt="HTML5" class="img-thumbnail img-responsive">
                                </a>
                                <div class="media-body">
                                    <h4 class="media-heading"><a href="">HTML5 微场景实战</a></h4>
@@ -272,7 +272,7 @@
                     </div>
                     <div class="panel-body">
                         <ul class="media-list">
-                            <li class="media">
+                            <li class="media list-item">
                                 <div class="answercount pull-left">
                                     <div class="diggitnum">0</div>
                                     <div class="diggitword">回答数</div>
@@ -280,7 +280,7 @@
                                 <div class="media-body">
                                     <p>
                                         <span class="gold">10</span>
-                                        <img src="images/icn_ps.gif">
+                                        <img src="statics/images/icn_ps.gif">
                                         <strong><a href="">教个问题,微信公众平台或HTML5，或ASP.NET如何获取到wifi 的ssid？</a></strong>
                                     </p>
                                     <p class="text-justify">
@@ -292,7 +292,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="media">
+                            <li class="media list-item">
                                 <div class="answercount pull-left">
                                     <div class="diggitnum">0</div>
                                     <div class="diggitword">回答数</div>
@@ -300,7 +300,7 @@
                                 <div class="media-body">
                                     <p>
                                         <span class="gold">10</span>
-                                        <img src="images/icn_ps.gif">
+                                        <img src="statics/images/icn_ps.gif">
                                         <strong><a href="">教个问题,微信公众平台或HTML5，或ASP.NET如何获取到wifi 的ssid？</a></strong>
                                     </p>
                                     <p class="text-justify">
@@ -449,11 +449,11 @@
                         <span class="pull-right"><a href="">更多</a></span>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item"><span class="badge"><img src="images/icn_ps.gif">&nbsp;50</span>Cras justo odio</li>
-                        <li class="list-group-item"><span class="badge"><img src="images/icn_ps.gif">&nbsp;20</span>Dapibus ac facilisis in</li>
-                        <li class="list-group-item"><span class="badge"><img src="images/icn_ps.gif">&nbsp;40</span>Morbi leo risus</li>
-                        <li class="list-group-item"><span class="badge"><img src="images/icn_ps.gif">&nbsp;30</span>Porta ac consectetur ac</li>
-                        <li class="list-group-item"><span class="badge"><img src="images/icn_ps.gif">&nbsp;80</span>Vestibulum at eros</li>
+                        <li class="list-group-item"><span class="badge"><img src="statics/images/icn_ps.gif">&nbsp;50</span>Cras justo odio</li>
+                        <li class="list-group-item"><span class="badge"><img src="statics/images/icn_ps.gif">&nbsp;20</span>Dapibus ac facilisis in</li>
+                        <li class="list-group-item"><span class="badge"><img src="statics/images/icn_ps.gif">&nbsp;40</span>Morbi leo risus</li>
+                        <li class="list-group-item"><span class="badge"><img src="statics/images/icn_ps.gif">&nbsp;30</span>Porta ac consectetur ac</li>
+                        <li class="list-group-item"><span class="badge"><img src="statics/images/icn_ps.gif">&nbsp;80</span>Vestibulum at eros</li>
                     </ul>
                 </div>
 
@@ -501,8 +501,16 @@
                     <p>本网站所列开源项目的中文版文档全部由<a href="http://www.bootcss.com/">Bootstrap中文网</a>成员翻译整理，并全部遵循 <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>协议发布。</p>
                 </div>
                 <!--建议-->
-                <div class="" id="advice">
-
+                <div class="col-sm-7 col-lg-7" id="advice">
+                    <form>
+                        <div class="form-group ">
+                            <input type="text" class="form-control" id="advice_title" placeholder="标题">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="内容"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">留言</button>
+                    </form>
                 </div>
             </div>
             <hr>

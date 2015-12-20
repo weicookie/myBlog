@@ -1,0 +1,275 @@
+/*实现圆角*/
+.radius{
+    border-radius: 4px;
+}
+
+/*去除圆角*/
+.unradius{
+    border-radius: 0px;
+}
+
+/*设置上外间距*/
+.top{
+     margin-top: 15px;
+ }
+
+.md_top{
+    margin-top: 25px;
+}
+
+.lg_top{
+    margin-top: 35px;
+}
+
+/*设置下外间距*/
+.bottom{
+    margin-bottom: 15px;
+}
+
+.md_bottom{
+    margin-bottom: 25px;
+}
+
+.lg_bottom{
+    margin-bottom: 35px;
+}
+
+/*设置上内间距*/
+.top_padding{
+    padding-top:10px;
+}
+
+/*设置下内间距*/
+.bottom_padding{
+    padding-bottom: 10px;
+}
+
+/*页码输入框*/
+.pageNumInput{
+    width: 28px;
+    text-align: center;
+    background: none;
+    text-indent: 0;
+    border: 1px solid #ddd;
+}
+
+/*设置span的右间距*/
+.span_right{
+    margin-right: 10px;
+}
+
+/*设置span的左间距*/
+.span_left{
+    margin-left: 10px;
+}
+
+/*设置按钮的左间距*/
+.button_left{
+    margin-left: 10px;
+}
+
+/*设置按钮的右间距*/
+.button_right{
+    margin-right: 10px;
+}
+
+/*重新设置column的宽度，以及左间距*/
+.re_col{
+    width: 97%;
+    margin-left: 14px;
+}
+
+/*设置column没有内间距*/
+.col_no_padding{
+    padding: 0px;
+}
+
+.col_noLeft_padding{
+    padding-left: 0px;
+}
+
+.col_noRight_padding{
+    padding-right: 0px;
+}
+
+/*设置字体的颜色*/
+.text-black{
+    color: #0f0f0f;
+}
+
+.area_height{
+    height: 280px;
+}
+
+.txt-p{
+    height: 50px;
+}
+
+/*设置字体的大小*/
+.text-xs_size{
+    font-size: 12px;
+}
+
+.text-sm_size{
+    font-size: 14px;
+}
+
+.text-md_size{
+    font-size: 16px;
+}
+
+.text-lg_size{
+    font-size: 18px;
+}
+
+/*内容超出则隐藏*/
+.txt-overflow{
+    overflow: hidden;
+}
+
+/*ul列表的第一个li不设置上边框*/
+.line-li li:first-child{
+    border-top: none;
+}
+
+/*设置ul列表li的上边框*/
+.line-li li{
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px dotted #cccccc;
+}
+
+/*设置ul中的li的字体大小、颜色、左间距*/
+.li_left li{
+    font-size: 13px;
+    color:rgba(0,0,0,.6);
+    margin-left: 16px;
+}
+
+/*设置ul中的li的字体大小、颜色、左间距，一般用于二级导航*/
+.font-li li a{
+    font-size: 12px;
+    color: #232323;
+    margin-left: 10px;
+}
+
+/*设置水平li之间的上下左右间距*/
+.margin_list{
+    margin: 10px 0px;
+}
+.margin_list li{
+    margin-left: 20px;
+}
+
+.ul_li_top li{
+    margin-top: 7px;
+}
+
+/*设置背景颜色*/
+.back{
+    background: rgba(0,0,0,.05);
+}
+.white{
+    background: #fff;
+}
+
+/*设置边框及其颜色*/
+.border{
+    border: 1px solid #d4d4d4;
+}
+
+/*设置没有上边框*/
+.no_top_border{
+    border-top: none;
+}
+
+
+/*设置元素没有下间距*/
+.no_margin_bottom{
+    margin-bottom: 0px;
+}
+
+/*设置元素没有上间距*/
+.no_margin_top{
+    margin-top: 0px;
+}
+
+/*设置dl的上下左右内间距*/
+.dl_padding{
+    padding: 15px 30px 0px;
+}
+
+/*媒体对象media中设置文本内容显示的最大高度，超出的隐藏*/
+.format_txt{
+    height: 42px;
+    text-overflow: ellipsis;
+}
+
+/*设置元素下1px下虚线*/
+.bottom_dotted{
+    border-bottom: 1px dotted #d4d4d4;
+}
+
+/*设置1px的水平虚线，用于分割内容*/
+.dotted{
+    height: 1px;
+    border-bottom: 1px dotted #d4d4d4;
+    width: 94%;
+    margin: 0px auto;
+}
+
+.all_dotted{
+    height: 1px;
+    border-bottom: 1px dotted #d4d4d4;
+    width: 100%;
+}
+
+/*设置分页居右时的右间距*/
+.page_right_margin{
+    margin-right: 30px;
+}
+
+/*为标题设置2px下划线*/
+.h_bottom{
+    border-bottom: 2px solid #efefef;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+/*设置li的宽度，超出则隐藏*/
+.li_overflow li{
+    width: 88%;
+    overflow: hidden;
+    margin: 0px 7% 0px 5%;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.li_overflow li a{
+    color: #843534;;
+}
+
+/*纯粹设置ul下的li的上边框*/
+.list_bottom_border li{
+    border-bottom: 1px dotted #cccccc;
+}
+
+.list_bottom_border li:last-child{
+    border-bottom: none;
+}
+
+.all_bottom_border{
+    border-bottom: 1px dotted #cccccc;
+}
+
+.footer {
+    border-top: 1px solid #e5e5e5;
+    color: #777;
+    margin-top: 70px;
+    padding: 30px 0;
+}
+
+/*段落缩进*/
+.retract{
+    text-indent:2em;
+}
