@@ -8,6 +8,7 @@
     <title>首页</title>
     <link href="../frameworks/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="../statics/css/common.css" rel="stylesheet">
+    <link href="statics/css/mbrcommon.css" rel="stylesheet">
     <link href="../statics/css/header.css" rel="stylesheet">
     <link href="statics/css/index.css" rel="stylesheet">
     <script type="text/javascript" src="../frameworks/jquery-2.1.4.min.js"></script>
@@ -42,7 +43,7 @@
                 <li><a href="" class="text-danger">屌丝生活</a></li>
             </ul>
             <div class="pull-right">
-                <p class="margin_list"><span class="span_right"><a href="">博客</a></span>|<span class="span_left span_right"><a href="">图库</a></span>|<span class="span_left"><a href="">写文章</a></span></p>
+                <p class="margin_list"><span class="span_right"><a href="index.html">博客</a></span>|<span class="span_left span_right"><a href="">图库</a></span>|<span class="span_left"><a href="">写文章</a></span></p>
             </div>
         </div>
     </div>
@@ -78,37 +79,65 @@
             </div>
             <div class="col-md-9 col_noRight_padding">
                 <div class="white bottom_padding">
-                    <h5 class="h_bottom">文章列表<span class="pull-right">排序</span></h5>
+                    <h5 class="h_bottom">文章列表
+                    <span class="pull-right">
+                        <span class="text-xs_size">排序&nbsp;</span>
+                        <select name="articleSort" class="text-xs_size select_padding">
+                            <option value="newPost">最新发布</option>
+                            <option value="newDiscuss">最新评论</option>
+                            <option value="hits">点击量</option>
+                            <option value="commentNum">评论数量</option>
+                        </select>
+                    </span>
+                    </h5>
                     <div>
                         <ul class="list-unstyled li_left md_top">
                             <li>
-                                <h4 class="single_overflow"><a href="" class="text-danger"><strong>文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</strong></a></h4>
-                                <p class="text-right ele_margin_right text-black">2015-11-12 12:52:3</p>
-                                <p class="text-justify multi_overflow ele_margin_right">最近公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常，公司文件服务器出现异常，造成所有用户无法正常使用，但文件服务器上存在很多数据及共享，如果重新安装系统，势必造成用户权限混乱，短时间无法恢复正常，且用户无法正常访问；由于服务器比较老旧，造成RAID驱动获取困难，且需要软盘进行驱动加载，整个处理过程相对复杂，在此分享处理全过程，希望能够帮助后面遇到相同问题的朋友；</p>
-                                <p class="top">类别：<span class="span_right text-danger">【Windows】</span>|<span class="text-danger span_right span_left">阅读(1192)</span>|<span class="span_left text-danger">回复(3)</span></p>
+                                <p class="single_overflow pull-left span_right"><span class="text-muted span_left span_right">[原创]</span><a href="articleDetail.html" class="text-danger">文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</a></p>
+                                <span class="ele_margin_right text-muted text-xs_size">2015-12-20</span>
+                                <span class="pull-right ele_margin_right">
+                                    <span class="ele_margin_right">点击：137</span>
+                                    <span class="ele_margin_right">评论：0</span>
+                                </span>
                             </li>
-                            <p class="all_dotted md_top md_bottom"></p>
+                            <p class="margin_tb_dotted"></p>
                             <li>
-                                <h4 class="single_overflow"><a href="" class="text-danger"><strong>文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</strong></a></h4>
-                                <p class="text-right ele_margin_right text-black">2015-11-12 12:52:3</p>
-                                <p class="text-justify multi_overflow ele_margin_right">最近公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常，公司文件服务器出现异常，造成所有用户无法正常使用，但文件服务器上存在很多数据及共享，如果重新安装系统，势必造成用户权限混乱，短时间无法恢复正常，且用户无法正常访问；由于服务器比较老旧，造成RAID驱动获取困难，且需要软盘进行驱动加载，整个处理过程相对复杂，在此分享处理全过程，希望能够帮助后面遇到相同问题的朋友；</p>
-                                <p class="top">类别：<span class="span_right text-danger">【Windows】</span>|<span class="text-danger span_right span_left">阅读(1192)</span>|<span class="span_left text-danger">回复(3)</span></p>
+                                <p class="single_overflow pull-left span_right"><span class="text-muted span_left span_right">[原创]</span><a href="articleDetail.html" class="text-danger">文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</a></p>
+                                <span class="ele_margin_right text-muted text-xs_size">2015-12-20</span>
+                                <span class="pull-right ele_margin_right">
+                                    <span class="ele_margin_right">点击：137</span>
+                                    <span class="ele_margin_right">评论：0</span>
+                                </span>
                             </li>
-                            <p class="all_dotted md_top md_bottom"></p>
+                            <p class="margin_tb_dotted"></p>
                             <li>
-                                <h4 class="single_overflow"><a href="" class="text-danger"><strong>文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</strong></a></h4>
-                                <p class="text-right ele_margin_right text-black">2015-11-12 12:52:3</p>
-                                <p class="text-justify multi_overflow ele_margin_right">最近公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常，公司文件服务器出现异常，造成所有用户无法正常使用，但文件服务器上存在很多数据及共享，如果重新安装系统，势必造成用户权限混乱，短时间无法恢复正常，且用户无法正常访问；由于服务器比较老旧，造成RAID驱动获取困难，且需要软盘进行驱动加载，整个处理过程相对复杂，在此分享处理全过程，希望能够帮助后面遇到相同问题的朋友；</p>
-                                <p class="top">类别：<span class="span_right text-danger">【Windows】</span>|<span class="text-danger span_right span_left">阅读(1192)</span>|<span class="span_left text-danger">回复(3)</span></p>
+                                <p class="single_overflow pull-left span_right"><span class="text-muted span_left span_right">[原创]</span><a href="articleDetail.html" class="text-danger">文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</a></p>
+                                <span class="ele_margin_right text-muted text-xs_size">2015-12-20</span>
+                                <span class="pull-right ele_margin_right">
+                                   <span class="ele_margin_right">点击：137</span>
+                                    <span class="ele_margin_right">评论：0</span>
+                                </span>
                             </li>
-                            <p class="all_dotted md_top md_bottom"></p>
+                            <p class="margin_tb_dotted"></p>
                             <li>
-                                <h4 class="single_overflow"><a href="" class="text-danger"><strong>文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</strong></a></h4>
-                                <p class="text-right ele_margin_right text-black">2015-11-12 12:52:3</p>
-                                <p class="text-justify multi_overflow ele_margin_right">最近公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常，公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常公司文件服务器出现异常，公司文件服务器出现异常，造成所有用户无法正常使用，但文件服务器上存在很多数据及共享，如果重新安装系统，势必造成用户权限混乱，短时间无法恢复正常，且用户无法正常访问；由于服务器比较老旧，造成RAID驱动获取困难，且需要软盘进行驱动加载，整个处理过程相对复杂，在此分享处理全过程，希望能够帮助后面遇到相同问题的朋友；</p>
-                                <p class="top">类别：<span class="span_right text-danger">【Windows】</span>|<span class="text-danger span_right span_left">阅读(1192)</span>|<span class="span_left text-danger">回复(3)</span></p>
+                                <p class="single_overflow pull-left span_right"><span class="text-muted span_left span_right">[原创]</span><a href="articleDetail.html" class="text-danger">文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</a></p>
+                                <span class="ele_margin_right text-muted text-xs_size">2015-12-20</span>
+                                <span class="pull-right ele_margin_right">
+                                    <span class="ele_margin_right">点击：137</span>
+                                    <span class="ele_margin_right">评论：0</span>
+                                </span>
                             </li>
-                            <p class="all_dotted md_top bottom"></p>
+                            <p class="margin_tb_dotted"></p>
+                            <li>
+                                <p class="single_overflow pull-left span_right"><span class="text-muted span_left span_right">[原创]</span><a href="articleDetail.html" class="text-danger">文件服务器蓝屏修文件服务器蓝屏修复全过程分享文件服务器蓝屏修复全过程分享复全过程分享</a></p>
+                                <span class="ele_margin_right text-muted text-xs_size">2015-12-20</span>
+                                <span class="pull-right ele_margin_right">
+                                     <span class="ele_margin_right">点击：137</span>
+                                    <span class="ele_margin_right">评论：0</span>
+                                </span>
+                            </li>
+                            <p class="margin_tb_dotted"></p>
+
                         </ul>
                     </div>
                     <!--分页-->

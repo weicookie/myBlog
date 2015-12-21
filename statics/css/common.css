@@ -273,3 +273,16 @@
 .retract{
     text-indent:2em;
 }
+
+/*鼠标手形*/
+.mouse_pointer{
+    cursor: pointer;
+}
+
+/*有一定上下间隔的虚线*/
+.margin_tb_dotted{
+    width:94%;
+    margin: 8px 3%;
+    height: 1px;
+    border-bottom: 1px dotted #c0c0c0;
+}

@@ -2,3 +2,34 @@
     margin: 30px 45px;
     line-height: 24px;
 }
+
+/*
+    因为分享插件的问题，需要重新设置以覆盖Bootstrap的样式
+    box-sizing属性可以为三个值之一：content-box（default），border-box，padding-box。
+    content-box，border和padding不计算入width之内
+    padding-box，padding计算入width内
+    border-box，border和padding计算入width之内，其实就是怪异模式了
+    ie8+浏览器支持content-box和border-box；
+    ff则支持全部三个值。
+    支持bshare:
+    *{
+     box-sizing:content-box;
+    }
+
+    .boxSize{
+        box-sizing:border-box;
+    }
+*/
+
+/*百度分享弹窗*/
+.bdshare_dialog_box{
+    box-sizing:content-box;
+}
+
+.padding_top8{
+    padding-top: 8px;
+}
+
+.margin_top8{
+    margin-top:8px;
+}
