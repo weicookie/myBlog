@@ -10,7 +10,7 @@
     <link href="../statics/css/common.css" rel="stylesheet">
     <link href="statics/css/mbrcommon.css" rel="stylesheet">
     <link href="../statics/css/header.css" rel="stylesheet">
-    <link href="statics/css/index.css" rel="stylesheet">
+    <link href="statics/css/home.css" rel="stylesheet">
     <script type="text/javascript" src="../frameworks/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="../frameworks/bootstrap/js/bootstrap.min.js"></script>
 </head>
@@ -35,28 +35,102 @@
 
 <div class="container">
     <div class="row md_top">
-        <div class="col-md-3">
+        <div class="col-md-2">
             <div class="panel panel-default">
-                <div class="panel-heading">我的家园</div>
+                <div class="panel-heading"><span class="span_right glyphicon glyphicon-home"></span>我的家园</div>
                 <div class="panel-body">
                     <p class="text-xs_size">签名：人生只有奋斗才有可能成功</p>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">视频</li>
-                    <li class="list-group-item">文章</li>
-                    <li class="list-group-item">问题</li>
-                    <li class="list-group-item">相册</li>
-                    <li class="list-group-item">下载</li>
-                    <li class="list-group-item">好友</li>
-                    <li class="list-group-item">收藏夹</li>
+                    <li class="list-group-item"><span class="glyphicon glyphicon-film ele_margin_right"></span><a href="">视频</a><span class="badge">10</span></li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-file"></span><a href="">文章</a><span class="badge">23</span></li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-question-sign"></span><a href="">问题</a><span class="badge">4</span></li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-picture"></span><a href="">相册</a> </li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-download"></span><a href="">下载</a></li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-music"></span><a href="">音乐</a> </li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-eye-open"></span><a href="">好友</a><span class="badge">14</span> </li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-folder-open"></span><a href="">收藏夹</a></li>
+                    <li class="list-group-item"><span class="ele_margin_right glyphicon glyphicon-cog"></span><a href="">设置</a></li>
                 </ul>
             </div>
         </div>
-        <div class="col-md-6">
-            222
+        <div class="col-md-7 top_padding">
+            <div class="media">
+                <div class="media-object pull-left">
+                    <img src="statics/images/blog_user.png" class="img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <div class="ele_margin_left">
+                        <dl>
+                            <dt><span class="ele_margin_right">harvey</span><span>总共1700人次访问</span></dt>
+                            <dd class="top"><span class="ele_margin_right text-xs_size text-muted">今天还没有写文章</span><a href="" class="text-xs_size alert-link"><strong>马上写</strong></a></dd>
+                            <dd><span class="ele_margin_right text-xs_size text-muted">当前积分：<span>100</span></span></dd>
+                            <dd><span class="ele_margin_right text-xs_size text-muted">注册时间：<span>2015-12-20</span></span></dd>
+                        </dl>
+                    </div>
+                </div>
+                <p class="all_dotted"></p>
+            </div>
+            <div class="">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">博主动态</a></li>
+
+                </ul>
+            </div>
         </div>
         <div class="col-md-3">
-            333
+            <div class="panel panel-info">
+                <div class="panel-heading">最近访客</div>
+                <div class="panel-body">
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-object pull-left">
+                                <img src="statics/images/user2.png">
+                            </div>
+                            <div class="media-body">
+                                <dl>
+                                    <dt>cookie</dt>
+                                    <dd class="small text-danger top">访问时间：2015-12-20</dd>
+                                    <dd class="top">
+                                        <button class="btn btn-primary btn-xs">访问博客</button>
+                                        <button class="btn btn-default btn-xs">加为好友</button>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-object pull-left">
+                                <img src="statics/images/user2.png">
+                            </div>
+                            <div class="media-body">
+                                <dl>
+                                    <dt>elroefdgf</dt>
+                                    <dd class="small text-danger top">访问时间：2015-12-20</dd>
+                                    <dd class="top">
+                                        <button class="btn btn-primary btn-xs">访问博客</button>
+                                        <button class="btn btn-default btn-xs">加为好友</button>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-object pull-left">
+                                <img src="statics/images/user2.png">
+                            </div>
+                            <div class="media-body">
+                                <dl>
+                                    <dt>elroefdgf</dt>
+                                    <dd class="small text-danger top">访问时间：2015-12-20</dd>
+                                    <dd class="top">
+                                        <button class="btn btn-primary btn-xs">访问博客</button>
+                                        <button class="btn btn-default btn-xs">加为好友</button>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>

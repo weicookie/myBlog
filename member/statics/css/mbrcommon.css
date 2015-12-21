@@ -2,3 +2,26 @@
 .select_padding{
     padding: 2px 6px;
 }
+
+.ele_margin_left{
+    margin-left: 20px;
+}
+
+.ele_margin_right{
+    margin-right: 20px;
+}
+
+/*设置高度*/
+.multi_overflow{
+    height: 50px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+/*单行，超过单行则隐藏*/
+.single_overflow{
+    width:60%;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}

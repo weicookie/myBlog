@@ -1,0 +1,227 @@
+<!--
+    文章园首页
+    -->
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>首页</title>
+    <link href="frameworks/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="statics/css/common.css" rel="stylesheet">
+    <link href="statics/css/header.css" rel="stylesheet">
+    <link href="statics/css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="frameworks/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="frameworks/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--头部start-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand"><strong>harvey.com</strong></a>
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="video.html">视频专区</a></li>
+            <li class="active"><a href="article.html">文章园</a></li>
+            <li><a href="news.html">新闻视角</a></li>
+            <li><a href="">博学多问</a></li>
+            <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                    更多 <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="">音乐空间</a></li>
+                    <li><a href="member/index.html">我的博客</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-sm navbar-btn navbar-right hidden-xs">RSS订阅</a>
+        <div class="navbar-right" style="margin-right: 30px">
+            <ul class="nav navbar-nav">
+                <li><a href="">登录</a></li>
+                <li><a href="">注册</a></li>
+            </ul>
+        </div>
+        <form class="navbar-form navbar-right">
+            <input type="text" placeholder="搜索" class="form-control">
+            <button type="submit">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+    <!--左边导航-->
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav navbar-default">
+                <li class="list-group-item back"><strong><a href="#" class="text-muted">网络技术</a></strong></li>
+                <li class="list-group-item">
+                    <ul class="list-unstyled line-li font-li">
+                        <li><a href="">路由器交换</a></li>
+                        <li><a href="">安全</a></li>
+                        <li><a href="">系统软件</a></li>
+                        <li><a href="">操作系统</a></li>
+                        <li><a href="">服务器/存储</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item back"><strong><a href="#" class="text-muted">开发技术</a></strong></li>
+                <li class="list-group-item">
+                    <ul class="list-unstyled line-li font-li">
+                        <li><a href="">移动开发</a></li>
+                        <li><a href="">Web开发</a></li>
+                        <li><a href="">Java</a></li>
+                        <li><a href="">数据库</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item back"><strong><a href="#" class="text-muted">IT管理</a></strong></li>
+                <li class="list-group-item">
+                    <ul class="list-unstyled line-li font-li">
+                        <li><a href="">项目管理</a></li>
+                        <li><a href="">管理软件</a></li>
+                        <li><a href="">IT业界</a></li>
+                        <li><a href="">IT职场</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--右边文章列表-->
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">全部 <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:;">网络技术</a></li>
+                                <li><a href="javascript:;">开发技术</a></li>
+                                <li><a href="javascript:;">IT管理</a></li>
+                                <li><a href="javascript:;">IT生活</a></li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control" placeholder="请输入感兴趣的文章">
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="pull-right">
+                        <button class="btn btn-primary">搜索&nbsp;<span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="border top">
+                <ol class="breadcrumb unradius no_margin_bottom">
+                    <span class="glyphicon glyphicon-home pull-left"></span>&nbsp;
+                    <li><a href="#">文章园</a></li>
+                    <li><a href="">网络技术</a></li>
+                    <li class="active">路由器交换</li>
+                </ol>
+            </div>
+            <div class="border no_top_border">
+                <dl class="dl_padding">
+                    <dt><a href="#">NetAPP F3020存储自动重启修复方法</a></dt>
+                    <dd class="media">
+                        <div class="pull-left">
+                            <img src="statics/images/user.png">
+                        </div>
+                        <div class="media-body">
+                           <p class="format_txt text-justify small">发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常使用，日志提示报错24小时后自动重启；详细日志如下所示：ThuDec1019:00:00CST[monitor.mismatch.hourly:CRITICAL]:Dat.. 最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常</p>
+                        </div>
+                    </dd>
+                    <dd class="top_padding small">
+                        <span class="text-danger span_right">harvey</span><span class="span_right">发布于2015-12-17 16:14:25</span><span class="span_right">阅读（56）</span><span>评论（0）</span>
+                    </dd>
+                </dl>
+                <p class="dotted"></p>
+                <dl class="dl_padding">
+                    <dt><a href="#">NetAPP F3020存储自动重启修复方法</a></dt>
+                    <dd class="media">
+                        <div class="pull-left">
+                            <img src="statics/images/user.png">
+                        </div>
+                        <div class="media-body">
+                            <p class="format_txt text-justify small">发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常使用，日志提示报错24小时后自动重启；详细日志如下所示：ThuDec1019:00:00CST[monitor.mismatch.hourly:CRITICAL]:Dat.. 最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常</p>
+                        </div>
+                    </dd>
+                    <dd class="top_padding small">
+                        <span class="text-danger span_right">harvey</span><span class="span_right">发布于2015-12-17 16:14:25</span><span class="span_right">阅读（56）</span><span>评论（0）</span>
+                    </dd>
+                </dl>
+                <p class="dotted"></p>
+                <dl class="dl_padding">
+                    <dt><a href="#">NetAPP F3020存储自动重启修复方法</a></dt>
+                    <dd class="media">
+                        <div class="pull-left">
+                            <img src="statics/images/user.png">
+                        </div>
+                        <div class="media-body">
+                            <p class="format_txt text-justify small">发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常使用，日志提示报错24小时后自动重启；详细日志如下所示：ThuDec1019:00:00CST[monitor.mismatch.hourly:CRITICAL]:Dat.. 最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常</p>
+                        </div>
+                    </dd>
+                    <dd class="top_padding small">
+                        <span class="text-danger span_right">harvey</span><span class="span_right">发布于2015-12-17 16:14:25</span><span class="span_right">阅读（56）</span><span>评论（0）</span>
+                    </dd>
+                </dl>
+                <p class="dotted"></p>
+                <dl class="dl_padding">
+                    <dt><a href="#">NetAPP F3020存储自动重启修复方法</a></dt>
+                    <dd class="media">
+                        <div class="pull-left">
+                            <img src="statics/images/user.png">
+                        </div>
+                        <div class="media-body">
+                            <p class="format_txt text-justify small">发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常使用，日志提示报错24小时后自动重启；详细日志如下所示：ThuDec1019:00:00CST[monitor.mismatch.hourly:CRITICAL]:Dat.. 最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常</p>
+                        </div>
+                    </dd>
+                    <dd class="top_padding small">
+                        <span class="text-danger span_right">harvey</span><span class="span_right">发布于2015-12-17 16:14:25</span><span class="span_right">阅读（56）</span><span>评论（0）</span>
+                    </dd>
+                </dl>
+                <p class="dotted"></p>
+                <dl class="dl_padding">
+                    <dt><a href="#">NetAPP F3020存储自动重启修复方法</a></dt>
+                    <dd class="media">
+                        <div class="pull-left">
+                            <img src="statics/images/user.png">
+                        </div>
+                        <div class="media-body">
+                            <p class="format_txt text-justify small">发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常使用，日志提示报错24小时后自动重启；详细日志如下所示：ThuDec1019:00:00CST[monitor.mismatch.hourly:CRITICAL]:Dat.. 最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因：  最近修复了NetappF3020，结果用着用着发现存储自动重启了，查看日志发现以下原因原来是因为前面升级的版本是IBM专用，而我们的F3020非IBM版本，故无法正常</p>
+                        </div>
+                    </dd>
+                    <dd class="top_padding small">
+                        <span class="text-danger span_right">harvey</span><span class="span_right">发布于2015-12-17 16:14:25</span><span class="span_right">阅读（56）</span><span>评论（0）</span>
+                    </dd>
+                </dl>
+                <p class="dotted"></p>
+                <!--分页-->
+                <div>
+                    <nav class="text-right page_right_margin">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">8</a></li>
+
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
