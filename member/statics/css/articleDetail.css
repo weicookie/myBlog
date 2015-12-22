@@ -1,3 +1,20 @@
+body{
+    padding: 50px;
+    background: rgba(239,239,239,0.5);
+}
+
+.blog_top_background{
+    background: rgba(154, 52, 2, 1);
+    height: 150px;
+}
+
+.h_bottom{
+    border-bottom: 2px solid #efefef;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+
 .margin_p{
     margin: 30px 45px;
     line-height: 24px;
@@ -32,4 +49,16 @@
 
 .margin_top8{
     margin-top:8px;
+}
+
+.ul_center{
+    width: 79%;
+    margin: 0px 11%;
+}
+
+.ul_center ul li .user{
+    width: 62px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
 }

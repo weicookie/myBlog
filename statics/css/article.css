@@ -1,0 +1,8 @@
+body{
+    padding: 70px;
+}
+
+/*设置dl的上下左右内间距*/
+.dl_padding{
+    padding: 15px 30px 0px;
+}

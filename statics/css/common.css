@@ -1,9 +1,3 @@
-body{
-    padding: 50px;
-    background: rgba(239,239,239,0.5);
-}
-
-
 /*实现圆角*/
 .radius{
     border-radius: 4px;
@@ -14,42 +8,6 @@ body{
     border-radius: 0px;
 }
 
-/*设置上外间距*/
-.top{
-     margin-top: 15px;
- }
-
-.md_top{
-    margin-top: 25px;
-}
-
-.lg_top{
-    margin-top: 35px;
-}
-
-/*设置下外间距*/
-.bottom{
-    margin-bottom: 15px;
-}
-
-.md_bottom{
-    margin-bottom: 25px;
-}
-
-.lg_bottom{
-    margin-bottom: 35px;
-}
-
-/*设置上内间距*/
-.top_padding{
-    padding-top:10px;
-}
-
-/*设置下内间距*/
-.bottom_padding{
-    padding-bottom: 10px;
-}
-
 /*页码输入框*/
 .pageNumInput{
     width: 28px;
@@ -57,26 +15,6 @@ body{
     background: none;
     text-indent: 0;
     border: 1px solid #ddd;
-}
-
-/*设置span的右间距*/
-.span_right{
-    margin-right: 10px;
-}
-
-/*设置span的左间距*/
-.span_left{
-    margin-left: 10px;
-}
-
-/*设置按钮的左间距*/
-.button_left{
-    margin-left: 10px;
-}
-
-/*设置按钮的右间距*/
-.button_right{
-    margin-right: 10px;
 }
 
 /*重新设置column的宽度，以及左间距*/
@@ -98,10 +36,6 @@ body{
     padding-right: 0px;
 }
 
-/*设置字体的颜色*/
-.text-black{
-    color: #0f0f0f;
-}
 
 .area_height{
     height: 280px;
@@ -200,10 +134,7 @@ body{
     margin-top: 0px;
 }
 
-/*设置dl的上下左右内间距*/
-.dl_padding{
-    padding: 15px 30px 0px;
-}
+
 
 /*媒体对象media中设置文本内容显示的最大高度，超出的隐藏*/
 .format_txt{
@@ -230,18 +161,6 @@ body{
     width: 100%;
 }
 
-/*设置分页居右时的右间距*/
-.page_right_margin{
-    margin-right: 30px;
-}
-
-/*为标题设置2px下划线*/
-.h_bottom{
-    border-bottom: 2px solid #efefef;
-    padding: 10px 15px;
-    font-weight: bold;
-}
-
 /*设置li的宽度，超出则隐藏*/
 .li_overflow li{
     width: 88%;
@@ -264,15 +183,25 @@ body{
     border-bottom: none;
 }
 
-.all_bottom_border{
-    border-bottom: 1px dotted #cccccc;
-}
-
 .footer {
     border-top: 1px solid #e5e5e5;
     color: #777;
     margin-top: 70px;
     padding: 30px 0;
+}
+
+
+/*有一定上下间隔、居中的虚线*/
+.margin_tb_dotted{
+    width:94%;
+    margin: 8px 3%;
+    height: 1px;
+    border-bottom: 1px dotted #c0c0c0;
+}
+
+/*纯粹一条虚线*/
+.all_bottom_border{
+    border-bottom: 1px dotted #cccccc;
 }
 
 /*段落缩进*/
@@ -283,14 +212,6 @@ body{
 /*鼠标手形*/
 .mouse_pointer{
     cursor: pointer;
-}
-
-/*有一定上下间隔的虚线*/
-.margin_tb_dotted{
-    width:94%;
-    margin: 8px 3%;
-    height: 1px;
-    border-bottom: 1px dotted #c0c0c0;
 }
 /*-----------------------------全局样式start---------------------------*/
 /*---外间距margin设置----*/
@@ -422,6 +343,14 @@ body{
     margin-right: 40px;
 }
 
+.ele_no_right_margin{
+    margin-right: 0px;
+}
+
+.ele_no_left_margin{
+    margin-left: 0px;
+}
+
 .ele_no_lr_margin{
     margin-left: 0px;
     margin-right: 0px;
@@ -437,8 +366,196 @@ body{
 }
 
 /*---元素内间距padding设置---*/
+.ele_paddingtop4{
+    padding-top: 4px;
+}
 
+.ele_padding_top8{
+    padding-top: 8px;
+}
 
+.ele_padding_top10{
+    padding-top: 10px;
+}
+
+.ele_padding_top15{
+    padding-top: 15px;
+}
+
+.ele_padding_top20{
+    padding-top: 20px;
+}
+
+.ele_padding_top25{
+    padding-top: 25px;
+}
+
+.ele_padding_top30{
+    padding-top: 30px;
+}
+
+.ele_padding_top40{
+    padding-top: 40px;
+}
+
+.ele_padding_bottom4{
+    padding-bottom: 4px;
+}
+
+.ele_padding_bottom8{
+    padding-bottom: 8px;
+}
+
+.ele_padding_bottom10{
+    padding-bottom: 10px;
+}
+
+.ele_padding_bottom15{
+    padding-bottom: 15px;
+}
+
+.ele_padding_bottom20{
+    padding-bottom: 20px;
+}
+
+.ele_padding_bottom25{
+    padding-bottom: 25px;
+}
+
+.ele_padding_bottom30{
+    padding-bottom: 30px;
+}
+
+.ele_padding_bottom40{
+    padding-bottom: 40px;
+}
+
+.ele_padding_left4{
+    padding-left: 4px;
+}
+
+.ele_padding_left8{
+    padding-left: 8px;
+}
+
+.ele_padding_left10{
+    padding-left: 10px;
+}
+
+.ele_padding_left15{
+    padding-left: 15px;
+}
+
+.ele_padding_left20{
+    padding-left: 20px;
+}
+
+.ele_padding_left25{
+    padding-left: 25px;
+}
+
+.ele_padding_left30{
+    padding-left: 30px;
+}
+
+.ele_padding_left40{
+    padding-left: 40px;
+}
+
+.ele_margin_right4{
+    margin-right: 4px;
+}
+
+.ele_padding_right8{
+    padding-right: 8px;
+}
+
+.ele_padding_right10{
+    padding-right: 10px;
+}
+
+.ele_padding_right15{
+    padding-right: 15px;
+}
+
+.ele_padding_right20{
+    padding-right: 20px;
+}
+
+.ele_padding_right25{
+    padding-right: 25px;
+}
+
+.ele_padding_right30{
+    padding-right: 30px;
+}
+
+.ele_padding_right40{
+    padding-right: 40px;
+}
+
+.ele_no_left_padding{
+    padding-left: 0px;
+}
+
+.ele_no_right_padding{
+    padding-right: 0px;
+}
+
+.ele_no_lr_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ele_no_tb_padding{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ele_no_padding{
+    padding: 0px;
+}
+/*设置字体颜色*/
+.text-gray666{
+    color: #666;
+}
+
+.text-black{
+    color: #0f0f0f;
+}
+
+/*设置字体大小*/
+.text-size-10{
+    font-size: 10px;
+}
+
+.text-size-12{
+    font-size: 12px;
+}
+
+.text-size-14{
+    font-size: 14px;
+}
+
+.text-size-15{
+    font-size: 15px;
+}
+
+.text-size-16{
+    font-size: 16px;
+}
+
+.text-size-18{
+    font-size: 18px;
+}
+
+.text-size-20{
+    font-size: 20px;
+}
+
+.text-size-22{
+    font-size: 22px;
+}
 
 
 

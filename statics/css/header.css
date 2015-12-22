@@ -17,26 +17,6 @@
     top: 8px;
 }
 
-.profile{
-    margin-top: 10px;
-}
-
-.sort{
-    margin-top: 20px;
-}
-
-.glyicon{
-    margin-left: 10px;
-}
-
-.ft-size{
-    font-size: 12px;
-}
-
-.ft-color{
-    color: #666;
-}
-
 .diggit{
     background: rgba(0, 0, 0, 0) url("../images/upup.gif") no-repeat scroll 0 0;
     cursor: pointer;
