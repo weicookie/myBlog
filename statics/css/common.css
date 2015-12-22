@@ -292,3 +292,159 @@ body{
     height: 1px;
     border-bottom: 1px dotted #c0c0c0;
 }
+/*-----------------------------全局样式start---------------------------*/
+/*---外间距margin设置----*/
+.ele_margin_top4{
+    margin-top: 4px;
+}
+
+.ele_margin_top8{
+    margin-top: 8px;
+}
+
+.ele_margin_top10{
+    margin-top: 10px;
+}
+
+.ele_margin_top15{
+    margin-top: 15px;
+}
+
+.ele_margin_top20{
+    margin-top: 20px;
+}
+
+.ele_margin_top25{
+    margin-top: 25px;
+}
+
+.ele_margin_top30{
+    margin-top: 30px;
+}
+
+.ele_margin_top40{
+    margin-top: 40px;
+}
+
+.ele_margin_bottom4{
+    margin-bottom: 4px;
+}
+
+.ele_margin_bottom8{
+    margin-bottom: 8px;
+}
+
+.ele_margin_bottom10{
+    margin-bottom: 10px;
+}
+
+.ele_margin_bottom15{
+    margin-bottom: 15px;
+}
+
+.ele_margin_bottom20{
+    margin-bottom: 20px;
+}
+
+.ele_margin_bottom25{
+    margin-bottom: 25px;
+}
+
+.ele_margin_bottom30{
+    margin-bottom: 30px;
+}
+
+.ele_margin_bottom40{
+    margin-bottom: 40px;
+}
+
+.ele_margin_left4{
+    margin-left: 4px;
+}
+
+.ele_margin_left8{
+    margin-left: 8px;
+}
+
+.ele_margin_left10{
+    margin-left: 10px;
+}
+
+.ele_margin_left15{
+    margin-left: 15px;
+}
+
+.ele_margin_left20{
+    margin-left: 20px;
+}
+
+.ele_margin_left25{
+    margin-left: 25px;
+}
+
+.ele_margin_left30{
+    margin-left: 30px;
+}
+
+.ele_margin_left40{
+    margin-left: 40px;
+}
+
+.ele_margin_right4{
+    margin-right: 4px;
+}
+
+.ele_margin_right8{
+    margin-right: 8px;
+}
+
+.ele_margin_right10{
+    margin-right: 10px;
+}
+
+.ele_margin_right15{
+    margin-right: 15px;
+}
+
+.ele_margin_right20{
+    margin-right: 20px;
+}
+
+.ele_margin_right25{
+    margin-right: 25px;
+}
+
+.ele_margin_right30{
+    margin-right: 30px;
+}
+
+.ele_margin_right40{
+    margin-right: 40px;
+}
+
+.ele_no_lr_margin{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.ele_no_tb_margin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ele_no_margin{
+    margin: 0px;
+}
+
+/*---元素内间距padding设置---*/
+
+
+
+
+
+
+
+
+/*-----------------------------全局样式end---------------------------*/
+
+
