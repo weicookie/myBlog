@@ -23,43 +23,12 @@
     margin-left: 14px;
 }
 
-/*设置column没有内间距*/
-.col_no_padding{
-    padding: 0px;
-}
-
-.col_noLeft_padding{
-    padding-left: 0px;
-}
-
-.col_noRight_padding{
-    padding-right: 0px;
-}
-
-
 .area_height{
     height: 280px;
 }
 
 .txt-p{
     height: 50px;
-}
-
-/*设置字体的大小*/
-.text-xs_size{
-    font-size: 12px;
-}
-
-.text-sm_size{
-    font-size: 14px;
-}
-
-.text-md_size{
-    font-size: 16px;
-}
-
-.text-lg_size{
-    font-size: 18px;
 }
 
 /*内容超出则隐藏*/
